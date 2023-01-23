@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --text-color : white;
+            --background-color : skyblue;
+
+        }
+        #n{
+            background-color: darkgreen;
+            height: 300px;
+            width: calc(100% - 10%); /*div size will decrease or increase but white space will be constant*/
+        }
+        a{
+            
+            text-decoration: none;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            padding: 30px 60px;
+            margin: 500px;
+            box-shadow: 20px 15px 5px gray;
+            font-size: 20px;
+            box-sizing: content-box;
+            box-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="n"></div>
+    <hr>
+    <br>
+    <a href="http://www.google.com">Google</a>
+</body>
+</html>
